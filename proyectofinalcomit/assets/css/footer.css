@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 3rem;
+    background-color: #033859;
+    color: white;
+}
+
+.footer__icon {
+    text-decoration: none;
+    color: white
+}
+
+.footer__icon:hover {
+    color: #0F9FBF;
+}
+
+.footer__icons {
+    margin-left: 2.7rem;
+}
+
+.icon__alto {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.footer__text {
+    font-size: 1rem;
+}
+
+.mapa {
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "server-mofs",
+    "version": "1.0.0",
+    "description": "Este ese el servidor de para mi proyecto final de CommIT",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./main.js"
+    },
+    "keywords": [
+        "CommIT",
+        "server",
+        "mofs",
+        "proyect"
+    ],
+    "author": "Federico Morel",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "10.0.0",
+        "express": "4.17.1",
+        "mongoose": "5.13.2",
+        "mongoose-autopopulate": "^0.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.9"
+    }
+}

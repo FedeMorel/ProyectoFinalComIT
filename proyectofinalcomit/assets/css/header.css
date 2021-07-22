@@ -1,0 +1,228 @@
+/*contenedor nav*/
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    min-height: 40rem;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #033859;
+    padding-bottom: 0;
+}
+
+.main {
+    padding-top: 4rem;
+}
+
+
+/*Deja estatico el navbar*/
+
+.static {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+
+/*Alinea el nav superior*/
+
+.nav__aling {
+    margin-left: 23%;
+}
+
+
+/*Boton desplegable*/
+
+.nav__list {
+    width: 2.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Logo nav*/
+
+.nav__img {
+    width: 5.5rem;
+    margin-left: 1rem;
+}
+
+
+/*Estilos a los iconos*/
+
+.icon__card,
+.icon__person {
+    width: 1.6rem;
+    margin: 0 1rem;
+}
+
+
+/*Le da estilos a las letras del nav inferior*/
+
+.style__nav {
+    padding: 0 0;
+    margin: 10px 0 10px 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+
+/*Pone el texto en blanco y le da altura*/
+
+.text__white {
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+/*Oculto el iniciar sesion del nav*/
+
+.text__logIn {
+    display: none;
+}
+
+.style__nav:hover {
+    color: #0f9fbf;
+}
+
+.style__nav:active {
+    color: #0f9fbf;
+}
+
+.style__nav :focus {
+    color: #0f9fbf;
+}
+
+.bi-person-circle:hover path {
+    fill: #0f9fbf;
+}
+
+.bi-cart3:hover path {
+    fill: #0f9fbf;
+}
+
+.dropdown-item:active {
+    background-color: #0f9fbf;
+}
+
+.logIn__cart {
+    display: flex;
+}
+
+.drop__container {
+    background-color: #fff;
+    height: 0;
+    width: 8rem;
+    position: absolute;
+    right: 4.4rem;
+    overflow: hidden;
+    transition: height 300ms;
+}
+
+.witdhDrop {
+    height: 4em;
+    border-radius: .2rem;
+}
+
+#btnLogOut {
+    background-color: transparent;
+    border: none;
+}
+
+.drop__item {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.drop_item_none {
+    height: 0;
+}
+
+.noStyles {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    margin: 0;
+}
+
+.noStyles:hover {
+    color: rgb(54, 54, 54);
+}
+
+.img__user {
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px 16px;
+}
+
+@media screen and (max-width: 1440px) {
+    .nav__aling {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__aling {
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon__card {
+        top: 5px;
+        right: 10px;
+        position: absolute;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #033859;
+        padding-bottom: 0.5rem;
+    }
+    .nav__down {
+        padding: 0;
+    }
+    .nav__img {
+        width: 5rem;
+        margin-left: 0;
+        position: absolute;
+        top: 10px;
+        left: 4.3rem;
+    }
+    .img__user {
+        display: none;
+    }
+    .style__base__nav {
+        margin-left: 1rem;
+    }
+    .text__logIn {
+        display: block;
+    }
+    .text__line {
+        border: #ffffff;
+    }
+    .main {
+        padding-top: 3.7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav__img {
+        width: 4.5rem;
+        margin-left: 0;
+        position: absolute;
+        top: 12px;
+        left: 4.3rem;
+    }
+}

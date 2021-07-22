@@ -1,0 +1,135 @@
+.content {
+    width: 90%;
+    min-height: 30rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    font-weight: 600;
+    margin: 1rem 0 1rem 1.7rem;
+    color: rgb(116, 116, 116);
+    font-size: 1.7rem;
+}
+
+.carrito__text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(116, 116, 116);
+}
+
+.content__text {
+    margin: auto;
+}
+
+.img__producto {
+    width: 4rem;
+}
+
+.elimiar__producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb2c2c;
+    margin: .6rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #fff;
+    border: 1px solid #eb2c2c;
+}
+
+.elimiar__producto:hover {
+    border: 1px solid #000;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 4.1rem;
+    padding: 0 1rem;
+    border-bottom: 1px #9c9c9c solid;
+    overflow: hidden;
+    margin: 0.3rem 0;
+}
+
+.nombre__producto {
+    margin: auto 0;
+    font-size: 1.2rem;
+}
+
+.precio__producto {
+    margin: auto 0;
+    font-size: 1.5rem;
+}
+
+.content__total {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    background-color: #12adcf;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.Total {
+    display: flex;
+}
+
+.total__sub {
+    margin: 0 10px 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.total__precio {
+    margin: 0 10px 0 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cantidad {
+    margin: 18px 0
+}
+
+.btnCantidad {
+    background-color: #12adcf;
+    border: 1px solid black;
+    border-radius: .3rem;
+    color: white
+}
+
+.btnCantidad:hover {
+    background-color: #12adcf;
+    border: 1px solid #033859;
+    border-radius: .3rem;
+    color: #033859;
+}
+
+.contentText {
+    width: 1.6rem;
+    border-radius: .2rem;
+    border: 1px solid black;
+    padding: .1rem .5rem;
+}
+
+.nombre__content {
+    width: 20%;
+    margin: 18px 0;
+}
+
+.precio__content {
+    width: 10%;
+    margin: 18px 0;
+}
+
+.mesajeYaExiste {
+    background-color: blue;
+}

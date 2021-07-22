@@ -1,0 +1,12 @@
+.cards {
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+
+.card {
+    margin: .5rem auto;
+}
+
+.card__size {
+    width: 14rem;
+}

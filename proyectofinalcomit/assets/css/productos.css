@@ -1,0 +1,203 @@
+    body {
+        background-color: rgb(235, 235, 235);
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .content {
+        width: 80%;
+        height: 35rem;
+        margin: 2rem auto;
+        background-color: #fff;
+        border-radius: .5rem;
+        display: flex;
+    }
+    
+    .containetInfo {
+        padding: 0.5rem 1rem;
+        margin: 0.3rem;
+        width: 40%;
+    }
+    
+    .other__img {
+        width: 100%;
+        border: solid 1px #d3d2d2;
+        border-radius: .5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .otherImg {
+        padding: 0 0.5rem;
+        width: 15%;
+    }
+    
+    .img {
+        width: 85%;
+        overflow: hidden;
+        border-radius: .3rem;
+        border: solid 1px #d3d2d2;
+    }
+    
+    .containerImg {
+        width: 70%;
+        margin: 0.5rem;
+        display: flex;
+    }
+    
+    .titulo {
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #505050;
+    }
+    
+    .precio {
+        margin: 0.4rem 0;
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #505050;
+    }
+    
+    .info {
+        margin: 1.5rem 0;
+    }
+    
+    .titulo__info {
+        font-weight: 600;
+        color: #505050;
+        font-size: 1rem;
+    }
+    
+    .buttons {
+        margin-top: 2rem;
+    }
+    
+    .titulo__descripcion {
+        margin: 1rem 0 0 0;
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: #505050;
+    }
+    
+    .subtitulo_info {
+        color: #505050;
+        font-size: .9rem;
+    }
+    
+    .descripcion {
+        margin: 0;
+    }
+    
+    .btn__favoritos {
+        color: #fff;
+        background-color: #0e90ae;
+        border: solid 1px #0e90ae;
+        padding: .3rem 2rem;
+    }
+    
+    .btn__favoritos:hover,
+    .btn__favoritos:focus {
+        color: #fff;
+        background-color: #0c6c81;
+        border: solid 1px #0c6c81;
+    }
+    
+    .btn__cart {
+        color: #fff;
+        margin-left: 1rem;
+        background-color: #0a5869;
+        border: solid 1px #0a5869;
+        padding: .3rem 2rem;
+        outline: none !important;
+    }
+    
+    .btn__cart:hover,
+    .btn__cart:focus {
+        color: #fff;
+        background-color: #0e90ae;
+        border: solid 1px #0e90ae;
+    }
+    
+    .mesaje {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 1rem 0 1rem;
+        background-color: #008000;
+        border-radius: .5rem;
+    }
+    
+    .mesajeErr {
+        margin-top: 1rem;
+        display: flex;
+        padding: 1rem 1rem 0 1rem;
+        background-color: #b43232;
+        border-radius: .5rem;
+    }
+    
+    .mesajeYaExiste {
+        margin-top: 1rem;
+        display: flex;
+        padding: 1rem 1rem 0 1rem;
+        background-color: #0f9fbf;
+        border-radius: .5rem;
+    }
+    
+    .mesaje_text {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .fa-times-circle {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .content {
+            width: 90%;
+            height: 27rem;
+        }
+        .otherImg {
+            width: 35%;
+        }
+        .img {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        .content {
+            width: 100%;
+            margin: 0;
+            height: 50rem;
+            flex-wrap: wrap;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+        .containerImg {
+            width: 95%;
+        }
+        .containetInfo {
+            width: 100%;
+            height: 30rem;
+        }
+        .titulo {
+            font-size: 1.3rem;
+        }
+        .precio {
+            font-size: 1.4rem;
+        }
+        .otherImg {
+            width: 40%;
+        }
+        .img {
+            width: 100%;
+        }
+        .btn__cart,
+        .btn__favoritos {
+            padding: .5rem 2.5rem;
+        }
+    }

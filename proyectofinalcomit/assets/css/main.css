@@ -1,0 +1,44 @@
+.font__dropdown {
+    font-size: 0.9rem;
+}
+
+.subtitulo {
+    font-weight: 500;
+    margin: 2rem 0 2rem 1.2rem;
+    color: rgb(116, 116, 116);
+}
+
+.card {
+    overflow: hidden;
+    background-color: #f0dfad;
+    border: none;
+    border-radius: .5rem;
+}
+
+.card:hover {
+    transition: 500ms;
+    border: 1px solid #f0dfad;
+}
+
+.card__size {
+    width: 11rem;
+    margin: 0 .3rem;
+}
+
+.card-img-top {
+    min-height: 176px;
+}
+
+.card-body {
+    padding: .7rem;
+}
+
+.card-text {
+    font-size: .9rem;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}

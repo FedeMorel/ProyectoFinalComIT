@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0 0 15%;
+}
+
+.card {
+    overflow: hidden;
+    background: #f0dfad;
+    border: none;
+    border-radius: .5rem;
+}
+
+.card:hover {
+    transition: 500ms;
+    border: 1px solid #f0dfad;
+}
+
+.card__size {
+    width: 11rem;
+}
+
+.card-img-top {
+    min-height: 176px;
+}
+
+.card-body {
+    padding: .7rem;
+}
+
+.card-text {
+    font-size: .9rem;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.btn__option {
+    font-size: .9rem;
+}
+
+.btn__option:hover {
+    color: #0e90ae;
+}
+
+.noStyles {
+    margin: 0 1rem;
+}
+
+
+/*Seccion Ayuda*/
+
+.ayuda__titulo {
+    margin: .5rem 0 1rem 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+
+.header__login {
+    background-color: #033859;
+}
+
+.login__img {
+    width: 7%;
+    margin: .5rem 2rem;
+}
+
+.container__acordion {
+    width: 80%;
+    margin: 1rem auto 10% auto;
+}
+
+.header__login {
+    height: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: black;
+}
+
+.accordion-button:focus {
+    border-color: #0f9fbf;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nIzIxMjUyOSc+PHBhdGggZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMS42NDYgNC42NDZhLjUuNSAwIDAgMSAuNzA4IDBMOCAxMC4yOTNsNS42NDYtNS42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNiA2YS41LjUgMCAwIDEtLjcwOCAwbC02LTZhLjUuNSAwIDAgMSAwLS43MDh6Jy8+PC9zdmc+);
+    transform: rotate( -180deg);
+}
